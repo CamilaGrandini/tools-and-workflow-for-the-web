@@ -1,1 +1,1 @@
-echo "Welcome to zsh shell :)"
+echo "Welcome ${USER} to zsh shell :)"
