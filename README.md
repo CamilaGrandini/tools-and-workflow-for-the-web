@@ -12,7 +12,7 @@
 A: echo "Hello from the command line"
 
 2. Write the command (or commands) that will create a file named 'hello-world.txt'.
-<your-answer-here>
+A: cat > hello-world.txt; touch hello-world.txt; type nul > hello-world.txt
 
 3. Write the command (or commands) that will create a folder named 'my-new-folder' in _current_ directory.
 <your-answer-here>
