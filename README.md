@@ -18,7 +18,7 @@ A: cat > hello-world.txt; touch hello-world.txt; type nul > hello-world.txt
 A: mkdir my-new-folder
 
 4. Write the command (or commands) that will attempt to delete a folder named 'my-nonexistent-folder' and display the following message when the commands _fails_: 'Whoops, cannot delete a folder that does not exist'.
-<your-answer-here>
+rm "my-nonexistent-folder" || echo "Whoops, cannot delete a folder that does not exist"
 
 5. Write the command (or commands) that will navigate to your desktop, and then to the parent folder of the desktop.
 <your-answer-here>
