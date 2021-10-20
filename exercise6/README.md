@@ -15,7 +15,7 @@ Use this document as a starting point for the Class 6 exercise. Please note that
 A: git rev-parse --is-inside-work-tree
 
 2. Assuming that you are currently within a Git repository, write the command (or commands) that will create a new file named 'hello-world.txt' then stage and commit it.
-<your-answer-here>
+A: cat > hello-world.txt ; git add . ; git commit -m "message"
 
 3. Assuming that you are currently within a Git repository that contains a file named 'README.md', write the command (or commands) that will display any uncommitted changes made to this file.
 <your-answer-here>
